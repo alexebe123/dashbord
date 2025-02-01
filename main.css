@@ -58,7 +58,7 @@ ul {
     gap: 40px;
     transition: .5s;
 }
-.menu-bar ul li a:hover {
+.menu-bar ul li a:hover, .box:hover {
     background-color: #ffffff55;
 }
 .logout{
@@ -87,4 +87,27 @@ ul li a i {
     align-items: center;
     border-radius: 10px;
     margin-bottom: 10px;
+}
+.box{
+    display: flex;
+    background-color: #123;
+    height: 150px;
+    flex-basis: auto;
+    min-width: 200px;
+    max-width: 300px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 10;
+}
+.box i {
+    font-size: 30px;
+}
+.card{
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
