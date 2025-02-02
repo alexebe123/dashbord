@@ -4,7 +4,6 @@
     padding: 0;
     color: #f4f4f4;
 }
-
 body {
     background-color: black;
     display: flex;
@@ -78,7 +77,6 @@ ul li a i {
     width: 100%;
     margin: 10px;
 }
-
 .title-bar{
     background-color: #123;
     padding: 10px;

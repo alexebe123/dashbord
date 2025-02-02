@@ -18,7 +18,7 @@ body {
     align-items: center;
     direction: rtl;
     height: 100px;
-    width: 90%;
+    width: 95%;
     margin-top: 20px;
     margin-left: 20px;
     padding: 5px;
@@ -53,3 +53,63 @@ body {
 .search-name label{
     padding: 5px;
 }
+.user-card {
+    display: flex;
+    width: 95%;
+    gap: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.user-box{
+    height: 160px;
+    max-width: 400px;
+    min-width: 200px;
+    flex-basis: 350px;
+    background-color: #123;
+    margin: 10px;
+    border-radius: 10px;
+}
+.user-box img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+.user-info{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+.user-info button{
+    background-color: #0CAF60;
+    color: #f4f4f4;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 0px;
+    width: 80px;
+    height: 30px;
+}
+.user-info button:hover{
+    background-color: #ffffff55;
+    cursor: pointer;
+}
+.user-info i{
+    font-size: 25px;
+    color: #f4f4f4;
+    padding-right: 15px;
+}
+.user-info i:hover{
+    color: red;
+    cursor: pointer;
+}
+
