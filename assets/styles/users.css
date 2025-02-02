@@ -8,3 +8,48 @@ body {
     background-color: black;
     display: flex;
 }
+.contant{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.search{
+    display: flex;
+    align-items: center;
+    direction: rtl;
+    height: 100px;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 5px;
+    background-color: #123;
+    border-radius: 10px;
+    gap: 10px;
+}
+.search-button{
+    background-color: #0CAF60;
+    color: #f4f4f4;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    max-height: 50px;
+    max-width: 300px;
+    margin-top: 20px;
+}
+.search input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: #f4f4f4;
+    max-height: 30px;
+    max-width: 300px;
+}
+.search-name{
+    padding: 10px;
+    margin: 10px;
+}
+.search-name label{
+    padding: 5px;
+}
