@@ -1,0 +1,79 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #f4f4f4;
+}
+body {
+    background-color: black;
+    display: flex;
+}
+.contant{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+@media (max-width: 768px) { 
+    .card-contant {
+        flex: 1 1 50%; /* في الشاشات الكبيرة، يأخذ 50% من العرض */
+        justify-content: center;
+        align-items: start;
+        gap: 10px;
+        grid-template-columns: 1fr;
+    }
+}
+.card-contant{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 90%;
+    height: 100vh;
+    background-color: #123;
+    padding-top: 40px;
+}
+.form-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 2px;
+    margin: 2px;
+}
+.form-box input{
+    color: #123;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    max-height: 30px;
+    max-width: 300px;
+}
+.right{
+    align-items: right;
+    justify-content: right;
+    margin: 10px;
+}
+.left{
+    align-items: left;
+    justify-content: left;
+    margin: 10px;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+}
+.form button{
+    background-color: #0CAF60;
+    color: #f4f4f4;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 300px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+}
