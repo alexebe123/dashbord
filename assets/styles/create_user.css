@@ -30,7 +30,7 @@ body {
     align-items: start;
     width: 90%;
     height: 100vh;
-    background-color: #123;
+    background-color: #ff6f28;
     padding-top: 40px;
 }
 .form-box{
@@ -41,7 +41,7 @@ body {
     margin: 2px;
 }
 .form-box input{
-    color: #123;
+    color: #ff6f28;
     width: 100%;
     padding: 10px;
     border: none;
