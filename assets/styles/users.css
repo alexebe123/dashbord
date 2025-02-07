@@ -13,7 +13,17 @@ body {
     display: flex;
     flex-direction: column;
 }
+@media (max-width: 768px) {
+    .search{
+        flex: 1 1 50%; /* في الشاشات الكبيرة، يأخذ 50% من العرض */
+        justify-content: center;
+        align-items: start;
+        gap: 10px;
+        grid-template-columns: 1fr;
+    }
+}
 .search{
+    justify-content: center;
     display: flex;
     align-items: center;
     direction: rtl;
@@ -25,6 +35,7 @@ body {
     background-color: #ff6f28;
     border-radius: 10px;
     gap: 10px;
+    flex-wrap: wrap;
 }
 .search-button{
     background-color: #0CAF60;
@@ -35,7 +46,6 @@ body {
     cursor: pointer;
     max-height: 50px;
     max-width: 300px;
-    margin-top: 20px;
 }
 .search input{
     width: 100%;
@@ -45,13 +55,6 @@ body {
     color: #f4f4f4;
     max-height: 30px;
     max-width: 300px;
-}
-.search-name{
-    padding: 10px;
-    margin: 10px;
-}
-.search-name label{
-    padding: 5px;
 }
 .user-card {
     display: flex;
