@@ -14,7 +14,6 @@ body {
     justify-content: center;
     align-items: start;
 }
-
 .card-contant{
     margin: 0px;
     display: flex;
@@ -30,14 +29,6 @@ body {
 @media (min-width: 600px) {
     .card-contant{
         height: 60%;
-    }
-    .right{
-        margin: 0px;
-        padding: 0px;
-    }
-    .left{
-        margin: 0px;
-        padding: 0px;
     }
 }
 .form{

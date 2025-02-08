@@ -48,6 +48,7 @@ body {
     max-width: 300px;
 }
 .search input{
+    color: black !important;
     width: 100%;
     padding: 10px;
     border: none;
